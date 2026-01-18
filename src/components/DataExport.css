@@ -1,0 +1,112 @@
+.data-export {
+  background: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #2a2a2a;
+  margin-top: 20px;
+}
+
+.data-export h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.export-info {
+  margin-bottom: 16px;
+}
+
+.export-info p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.export-info strong {
+  color: #00d9ff;
+  font-family: 'Courier New', monospace;
+}
+
+.export-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #00d9ff;
+}
+
+.btn-export {
+  padding: 10px 20px;
+  background: #00d9ff;
+  color: #0a0a0a;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-export:hover:not(:disabled) {
+  background: #00c4e6;
+  box-shadow: 0 0 20px rgba(0, 217, 255, 0.4);
+}
+
+.btn-export:disabled {
+  background: #2a2a2a;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.data-preview {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #2a2a2a;
+}
+
+.data-preview h4 {
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.preview-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.preview-label {
+  font-size: 0.75rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.preview-value {
+  font-size: 0.85rem;
+  color: #00d9ff;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+}
